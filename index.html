@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MSCODEX - Portfólio</title>
+</head>
+<body>
+    <header>
+        <h1>MSCODEX</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#vendas">Vendas</a></li>
+                <li><a href="#admin" id="admin-link">Admin</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Bem-vindo ao MSCODEX, sua loja de produtos incríveis!</p>
+    </section>
+
+    <section id="vendas">
+        <h2>Vendas</h2>
+        <div class="produtos-lista" id="produtos-lista">
+            <!-- Produtos serão adicionados aqui dinamicamente -->
+        </div>
+    </section>
+
+    <section id="admin" style="display: none;">
+        <h2>Área de Administração</h2>
+        <form id="admin-form">
+            <input type="text" id="produto-nome" placeholder="Nome do Produto" required>
+            <input type="text" id="produto-descricao" placeholder="Descrição do Produto" required>
+            <input type="number" id="produto-preco" placeholder="Preço" required>
+            <input type="text" id="whatsapp-numero" placeholder="Número do WhatsApp" required>
+            <input type="text" id="whatsapp-mensagem" placeholder="Mensagem do WhatsApp" required>
+            <button type="submit">Adicionar Produto</button>
+        </form>
+        <button id="logout-btn">Sair</button>
+    </section>
+
+    <section id="login" style="display: none;">
+        <h2>Login</h2>
+        <form id="login-form">
+            <input type="text" id="username" placeholder="Nome de Usuário" required>
+            <input type="password" id="password" placeholder="Senha" required>
+            <input type="text" id="admin-name" placeholder="Nome do Administrador" required>
+            <button type="submit">Entrar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MSCODEX</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
