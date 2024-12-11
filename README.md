@@ -27,9 +27,13 @@ Este é um projeto de portfólio simples que permite a administração de produt
 ## Estrutura do Projeto
 
 mscodex-portfolio/
+
 │
+
 ├── index.html # Página principal do site
+
 ├── style.css # Estilos do site
+
 └── script.js # Lógica do site
 
 
