@@ -37,15 +37,6 @@ mscodex-portfolio/
 └── script.js # Lógica do site
 
 
-## Como Usar
-
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seuusuario/mscodex-portfolio.git
-   cd mscodex-portfolio
-
-Abra o arquivo index.html em um navegador da web.
 
 Para acessar a área de administração, clique no link "Admin" e faça login com as seguintes credenciais:
 
