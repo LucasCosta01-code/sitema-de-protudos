@@ -1,2 +1,27 @@
-# sitema-de-protudos
-Este projeto não é recomendado para uso em ambientes de produção. O código foi desenvolvido para fins educacionais e de estudo. Não possui medidas de segurança adequadas e não deve ser utilizado em aplicações reais que exigem proteção de dados ou segurança. Utilize este código apenas para aprender e entender os conceitos de desenvolvimento web.
+# MSCODEX - Portfólio
+
+Este é um projeto de portfólio simples que permite a administração de produtos, incluindo a adição, remoção e edição de produtos. O sistema é protegido por um login de administrador, onde apenas usuários autenticados podem gerenciar os produtos.
+
+## Aviso Importante
+
+
+**Este projeto não é recomendado para uso em ambientes de produção.** O código foi desenvolvido para fins educacionais e de estudo. Não possui medidas de segurança adequadas e não deve ser utilizado em aplicações reais que exigem proteção de dados ou segurança. Utilize este código apenas para aprender e entender os conceitos de desenvolvimento web.
+
+## Funcionalidades
+
+
+- **Área de Administração**: Permite que o administrador adicione, remova e visualize produtos.
+- **Login de Administrador**: Apenas usuários com credenciais corretas podem acessar a área de administração.
+
+- **Persistência de Dados**: Os produtos são armazenados no `localStorage`, permitindo que os dados persistam mesmo após a atualização da página.
+- **Exibição do Nome do Administrador**: O nome do administrador que adicionou o produto é exibido ao lado de cada produto.
+
+## Tecnologias Utilizadas
+
+
+- HTML
+- CSS
+
+- JavaScript
+
+## Estrutura do Projeto
