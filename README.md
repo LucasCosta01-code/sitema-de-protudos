@@ -25,3 +25,29 @@ Este é um projeto de portfólio simples que permite a administração de produt
 - JavaScript
 
 ## Estrutura do Projeto
+
+mscodex-portfolio/
+│
+├── index.html # Página principal do site
+├── style.css # Estilos do site
+└── script.js # Lógica do site
+
+
+## Como Usar
+
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seuusuario/mscodex-portfolio.git
+   cd mscodex-portfolio
+
+Abra o arquivo index.html em um navegador da web.
+
+Para acessar a área de administração, clique no link "Admin" e faça login com as seguintes credenciais:
+
+Nome de Usuário: adm
+Senha: 123
+Nome do Administrador: (insira o nome desejado)
+Após o login, você poderá adicionar produtos, visualizar a lista de produtos e removê-los.
+
+Para sair da área de administração, clique no botão "Sair".
